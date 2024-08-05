@@ -14,6 +14,9 @@ importers:
       bs58:
         specifier: ^6.0.0
         version: 6.0.0
+      dotenv:
+        specifier: ^16.4.5
+        version: 16.4.5
 
 packages:
 
@@ -105,6 +108,10 @@ packages:
   delay@5.0.0:
     resolution: {integrity: sha512-ReEBKkIfe4ya47wlPYf/gu5ib6yUG0/Aez0JQZQz94kiWtRQvZIQbTiehsnwHvLSWJnQdhVeqYue7Id1dKr0qw==}
     engines: {node: '>=10'}
+
+  dotenv@16.4.5:
+    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
+    engines: {node: '>=12'}
 
   es6-promise@4.2.8:
     resolution: {integrity: sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==}
@@ -346,6 +353,8 @@ snapshots:
   commander@2.20.3: {}
 
   delay@5.0.0: {}
+
+  dotenv@16.4.5: {}
 
   es6-promise@4.2.8: {}
 
